@@ -1,0 +1,300 @@
+# Page snapshot
+
+```yaml
+- banner:
+  - heading [level=1]:
+    - link:
+      - /url: /
+  - heading "Test your front-end against a real API" [level=2]
+  - link "🚀 Dashboard":
+    - /url: https://app.reqres.in
+  - link "Get Free API Key":
+    - /url: /signup
+- main:
+  - 'heading "The #1 Fake Data API & Fake JSON API for Developers" [level=1]'
+  - paragraph: Instantly get realistic fake data and custom JSON endpoints for testing, prototyping, and demos. Free forever, or go Pro for advanced features.
+  - link "Get Free Fake Data API Key":
+    - /url: /signup
+  - link "Upgrade for Custom Endpoints":
+    - /url: /upgrade
+  - text: "🚀 LAUNCH DAY: 25% OFF Pro – Unlock unlimited fake data and custom APIs!"
+  - heading "Free" [level=3]
+  - list:
+    - listitem: ✅ 100 free fake data API requests per day
+    - listitem: ✅ Standard fake JSON API endpoints (users, posts, etc.)
+    - listitem: ✅ CORS enabled for all modern frameworks
+    - listitem: ✅ Realistic, production-style JSON responses
+    - listitem: ✅ Always-on, reliable cloud service
+  - heading "Pro ⭐" [level=3]
+  - list:
+    - listitem: ✅ Unlimited fake data API requests
+    - listitem: ✅ Create your own fake JSON endpoints
+    - listitem: ✅ Priority support for developers
+    - listitem: ✅ Pro API key for advanced use cases
+    - listitem: ✅ Perfect for frontend, mobile, and QA teams
+    - listitem: "✅ Launch day bonus: 25% off!"
+  - text: 🎉 Join 500+ developers using ReqRes for fake data APIs "ReqRes is my go-to fake data API for every new project." - Frontend Lead, SaaS Startup
+  - 'heading "FAQ: Why use a Fake Data API?" [level=2]'
+  - list:
+    - listitem: What is a fake data API? A fake data API provides realistic sample data for testing, prototyping, and demos. ReqRes lets you get fake users, posts, and more instantly via a simple REST API.
+    - listitem: How do I use a fake JSON API for frontend development? You can use ReqRes as a fake JSON API by making HTTP requests to our endpoints. You get instant, realistic JSON responses for your app or demo.
+    - listitem: Can I create custom endpoints with ReqRes? Yes! ReqRes Pro lets you create your own fake API endpoints with custom responses, methods, and paths—perfect for advanced testing and demos.
+  - link "Metronome Keep shipping. We’ve got billing. Billing infrastructure that scales with your team, without slowing you down. Start building":
+    - /url: https://srv.carbonads.net/ads/click/x/GTND427MCKYDV5QMCEBLYKQUCW7DV27YC6AIKZ3JCABI62JMCW7DTK3KC67I553YCABILK3WCV7D5K3NF67D5K3LHEYI52QICTSIT23ECTNCYBZ52K
+    - img "Metronome"
+    - text: Keep shipping. We’ve got billing. Billing infrastructure that scales with your team, without slowing you down. Start building
+  - button "Share Carbon Ad Icon":
+    - text: Share Carbon Ad Icon
+    - img
+  - list:
+    - listitem:
+      - link "Copy Link":
+        - /url: "#"
+    - listitem:
+      - link "Send via email":
+        - /url: "#"
+  - button "Refresh Carbon Ad":
+    - text: Refresh Carbon Ad
+    - img
+  - link "ads via Carbon":
+    - /url: http://carbonads.net/?utm_source=reqresin&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon
+  - heading "💎 Pro Features Preview" [level=3]
+  - heading "🎯 Custom Endpoints" [level=4]
+  - paragraph: Create your own API endpoints with dynamic data injection
+  - heading "⚡ Unlimited Requests" [level=4]
+  - paragraph: No rate limits, no restrictions, just pure development speed
+  - heading "🔐 Priority Support" [level=4]
+  - paragraph: Get help when you need it with dedicated support
+  - link "🚀 Upgrade to Pro - $9/month":
+    - /url: https://app.reqres.in/upgrade
+  - heading "⚡ See it in action - 30 seconds" [level=3]
+  - heading "1 Make a request" [level=4]
+  - text: "fetch('https://reqres.in/api/users', { headers: { 'x-api-key': 'reqres-free-v1' } }) .then(res => res.json()) .then(data => console.log(data)) Copy"
+  - heading "2 Get instant response" [level=4]
+  - text: "{ \"data\": [ { \"id\": 1, \"email\": \"george.bluth@reqres.in\", \"first_name\": \"George\", \"last_name\": \"Bluth\" } ] } Copy"
+  - link "🚀 Try it now - Get Free API Key":
+    - /url: https://app.reqres.in/signup
+  - paragraph: No credit card required • Setup in 30 seconds
+  - heading "🎬 See Custom Endpoints in Action" [level=3]
+  - paragraph: Watch how easy it is to create your own API endpoints with dynamic data injection
+  - iframe
+  - text: ⚡ 2 minutes 🎯 Step-by-step 💎 Pro feature
+  - link "🚀 Upgrade to Pro - Unlock Custom Endpoints":
+    - /url: https://app.reqres.in/upgrade
+  - paragraph:
+    - text: 25% off with code
+    - strong: FRIENDS25
+- heading "Give it a try" [level=2]
+- heading "🔥 Love what you see?" [level=3]
+- paragraph: Unlock unlimited requests, custom endpoints, and priority support
+- link "🚀 Upgrade to Pro - $9/month":
+  - /url: https://app.reqres.in/upgrade
+- paragraph: No setup fees • Cancel anytime
+- separator
+- list:
+  - listitem:
+    - text: get
+    - link "List users":
+      - /url: /api/users?page=2
+  - listitem:
+    - text: get
+    - link "Single user":
+      - /url: /api/users/2
+  - listitem:
+    - text: get
+    - link "Single user not found":
+      - /url: /api/users/23
+  - listitem:
+    - text: get
+    - link "List <resource>":
+      - /url: /api/unknown
+  - listitem:
+    - text: get
+    - link "Single <resource>":
+      - /url: /api/unknown/2
+  - listitem:
+    - text: get
+    - link "Single <resource> not found":
+      - /url: /api/unknown/23
+  - listitem:
+    - text: post
+    - link "Create":
+      - /url: /api/users
+  - listitem:
+    - text: put
+    - link "Update":
+      - /url: /api/users/2
+  - listitem:
+    - text: patch
+    - link "Update":
+      - /url: /api/users/2
+  - listitem:
+    - text: delete
+    - link "Delete":
+      - /url: /api/users/2
+  - listitem:
+    - text: post
+    - link "Register - successful":
+      - /url: /api/register
+  - listitem:
+    - text: post
+    - link "Register - unsuccessful":
+      - /url: /api/register
+  - listitem:
+    - text: post
+    - link "Login - successful":
+      - /url: /api/login
+  - listitem:
+    - text: post
+    - link "Login - unsuccessful":
+      - /url: /api/login
+  - listitem:
+    - text: get
+    - link "Delayed response":
+      - /url: /api/users?delay=3
+- paragraph:
+  - strong:
+    - text: Request 
+    - link "/api/users?page=2":
+      - /url: /api/users?page=2
+- paragraph:
+  - strong: Response  200
+- text: "{ \"page\": 2, \"per_page\": 6, \"total\": 12, \"total_pages\": 2, \"data\": [ { \"id\": 7, \"email\": \"michael.lawson@reqres.in\", \"first_name\": \"Michael\", \"last_name\": \"Lawson\", \"avatar\": \"https://reqres.in/img/faces/7-image.jpg\" }, { \"id\": 8, \"email\": \"lindsay.ferguson@reqres.in\", \"first_name\": \"Lindsay\", \"last_name\": \"Ferguson\", \"avatar\": \"https://reqres.in/img/faces/8-image.jpg\" }, { \"id\": 9, \"email\": \"tobias.funke@reqres.in\", \"first_name\": \"Tobias\", \"last_name\": \"Funke\", \"avatar\": \"https://reqres.in/img/faces/9-image.jpg\" }, { \"id\": 10, \"email\": \"byron.fields@reqres.in\", \"first_name\": \"Byron\", \"last_name\": \"Fields\", \"avatar\": \"https://reqres.in/img/faces/10-image.jpg\" }, { \"id\": 11, \"email\": \"george.edwards@reqres.in\", \"first_name\": \"George\", \"last_name\": \"Edwards\", \"avatar\": \"https://reqres.in/img/faces/11-image.jpg\" }, { \"id\": 12, \"email\": \"rachel.howell@reqres.in\", \"first_name\": \"Rachel\", \"last_name\": \"Howell\", \"avatar\": \"https://reqres.in/img/faces/12-image.jpg\" } ], \"support\": { \"url\": \""
+- link "https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral":
+  - /url: https://contentcaddy.io?utm_source=reqres&utm_medium=json&utm_campaign=referral
+- text: "\", \"text\": \"Tired of writing endless social media content? Let Content Caddy generate it for you.\" } }"
+- separator
+- heading "🚀 Pro Features That Power Your Development" [level=2]
+- separator
+- heading "🎯 Custom Endpoints" [level=3]
+- paragraph: Create unlimited custom API endpoints with dynamic data injection. Perfect for testing specific scenarios.
+- list:
+  - listitem: Up to 100 custom endpoints
+  - listitem: Dynamic placeholder support
+  - listitem: Custom HTTP methods
+  - listitem: Real-time data injection
+- heading "⚡ Unlimited Requests" [level=3]
+- paragraph: No more rate limits. Test as much as you need, when you need it.
+- list:
+  - listitem: Unlimited API calls
+  - listitem: Faster response times
+  - listitem: Priority server access
+  - listitem: 99.9% uptime guarantee
+- heading "🔐 Advanced Security" [level=3]
+- paragraph: Enterprise-grade security with dedicated API keys and advanced authentication.
+- list:
+  - listitem: Dedicated API keys
+  - listitem: Clerk authentication
+  - listitem: Request tracking
+  - listitem: Usage analytics
+- heading "Billions of API requests served monthly" [level=3]
+- paragraph: ReqRes is relied on by developers worldwide for fast, reliable API testing—see our real Cloudflare stats above!
+- text: 84.7M Unique Visitors (30d) 35.9B Requests (30d) 11TB Data Served (30d)
+- link "🚀 Join the Pro Community":
+  - /url: https://app.reqres.in/upgrade
+- iframe
+- heading "It’s all in the details" [level=2]
+- separator
+- list:
+  - listitem:
+    - text: 
+    - paragraph:
+      - strong:
+        - text: Hosted on
+        - link "Cloudflare":
+          - /url: https://www.cloudflare.com/
+    - paragraph: "Which means 99.9% Uptime SLA. All you need is the base URL, and you're away: https://reqres.in/api/ The API is CORS enabled, so you can make requests right from the browser, no matter what domain, or even from somewhere like CodeSandbox or StackBlitz."
+  - listitem:
+    - text: 
+    - paragraph:
+      - strong: Language agnostic
+    - paragraph: A generic API that conforms to REST principles and accepts a content type of application/json Any endpoint that contains "<resource>" can be substituted with anything you supply, ie. "products", "accounts", etc..the API will just respond with various Pantone colours.
+- heading "Getting started" [level=2]
+- separator
+- text: 
+- heading "🆓 Need an API Key?" [level=3]
+- paragraph: Get your free API key to start testing with ReqRes
+- link "Get Free API Key":
+  - /url: https://app.reqres.in/signup
+- paragraph: "Check out the OpenAPI documentation:"
+- link "OpenAPI logo":
+  - /url: /api-docs
+  - img "OpenAPI logo"
+- paragraph: Modern JavaScript (Fetch)
+- paragraph: "If you, for example, want to create a fake user:"
+- text: "fetch(\"https://reqres.in/api/users\", { method: \"POST\", headers: { \"Content-Type\": \"application/json\", \"Authorization\": \"Bearer YOUR_API_KEY\" }, body: JSON.stringify({ name: \"paul rudd\", movies: [\"I Love You Man\", \"Role Models\"] }) }) .then(response => response.json()) .then(data => console.log(data)) .catch(error => console.error(\"Error:\", error));"
+- paragraph: For which the response to this request will be...
+- text: "{ \"name\":\"paul rudd\", \"movies\":[ \"I Love You Man\", \"Role Models\" ], \"id\":\"243\", \"createdAt\":\"2025-01-15T12:09:05.255Z\" }"
+- paragraph: You can see that the API has sent us back whatever user details we sent it, plus an id & createdAt key for our use.
+- paragraph: Async/Await JavaScript
+- paragraph: "If you've already got your own application entities, ie. \"products\", you can send them in the endpoint URL, like so:"
+- text: "async function getProduct() { try { const response = await fetch(\"https://reqres.in/api/products/3\", { headers: { \"Authorization\": \"Bearer YOUR_API_KEY\" } }); const data = await response.json(); console.log(data); } catch (error) { console.error(\"Error:\", error); } } getProduct();"
+- paragraph: It would be impossible for Reqres to know your application data, so the API will respond from a sample set of Pantone colour data
+- text: "{ \"data\":{ \"id\":3, \"name\":\"true red\", \"year\":2002, \"pantone_value\":\"19-1664\" } }"
+- paragraph: It's entirely possible to get sample data into your interface in seconds!
+- heading "Ready to supercharge your development?" [level=2]
+- paragraph: Join thousands of developers who've already upgraded to Pro
+- text: $9 per month Unlimited requests Cancel anytime
+- link "🚀 Upgrade to Pro Now":
+  - /url: https://app.reqres.in/upgrade
+- heading "Still don't really get it..." [level=2]
+- separator
+- list:
+  - listitem:
+    - text: 
+    - paragraph:
+      - strong:
+        - text: Reqres is a
+        - emphasis: real
+        - text: API
+    - paragraph: Reqres simulates real application scenarios. If you want to test a user authentication system, Reqres will respond to a successful login/register request with a token for you to identify a sample user, or with a 403 forbidden response to an unsuccessful login/registration attempt. A common front-end scenario that's easily forgotten is loading states, which can be easily simulated through Reqres by appending ?delay=<a number of seconds> to any endpoint URL, which will delay the API response time. Perfect for testing loading spinners and skeleton screens!
+  - listitem:
+    - text: 
+    - paragraph:
+      - strong: Technical demos and tutorials
+    - paragraph: If you're trying to demonstrate a front-end (JavaScript-based) concept, you don't really want the hassle of setting up an API, or even a server (especially during a live workshop or demo). You can just write your HTML, CSS & JavaScript as usual and send Reqres AJAX requests, which will respond with the expected response codes and output.
+  - listitem:
+    - text: 
+    - paragraph:
+      - strong: Rapid prototyping of interfaces
+    - paragraph:
+      - text: When prototyping a new interface, you just want an API
+      - emphasis: there
+      - text: ", with minimal setup effort involved. While you could set up your own backend with tools like"
+      - link "Next.js API routes":
+        - /url: https://nextjs.org
+      - text: or
+      - link "Vercel Functions":
+        - /url: https://vercel.com
+      - text: ", that requires deployment and configuration. Reqres is just a URL. Sending it an HTTP request is step 1...there is no step 2. Perfect for rapid prototyping, demos, and testing."
+- heading "Peace of mind" [level=2]
+- separator
+- text: 
+- paragraph:
+  - text: It might seem
+  - strong: pretty weird
+  - text: to be sending your data to a 3rd party API, but I can assure you, Reqres
+  - strong: does not store any of your data
+  - text: at all. Once you send it to us, we just send it straight back...and then it's gone!
+- heading "Advertising" [level=2]
+- separator
+- heading "Reach Millions of Developers. Instantly." [level=3]
+- paragraph:
+  - text: 🚀
+  - strong: Your brand, job, or product could be in front of 80+ million developers and 35+ billion API requests every month.
+  - text: ReqRes is where the world's builders, makers, and creators come to test, learn, and launch.
+- paragraph:
+  - strong: Want to get your message in front of the most engaged, technical audience on the planet?
+  - text: Whether you're hiring, launching, or growing, there's no better place to make an impact.
+- link "📄 Download Advertising Deck (PDF)":
+  - /url: https://www.dropbox.com/s/2w7gaeydx02qs40/Reqres_Advertising_Proposal.pdf?dl=0
+- link "Contact us for pricing & availability →":
+  - /url: mailto:hello@benhowdle.im
+- paragraph: Let's build something legendary together.
+- contentinfo:
+  - separator
+  - paragraph:
+    - text: Made for developers and designers by
+    - link "Ben Howdle":
+      - /url: https://benhowdle.im
+```
